@@ -1,0 +1,216 @@
+body {
+  background-color: rgb(43, 43, 43);
+  color: white;
+}
+#oben {
+  height: 50px;
+  font-size: x-large;
+  text-align: center;
+}
+#content {
+  height: 650px;
+  width: 650px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+#content {
+  position: absolute;
+  left: 33%;
+}
+#cookieclick {
+  background-color: rgb(43, 43, 43);
+  border-radius: 150%;
+  border: none;
+  
+}
+#cookieclick:active {
+  transform: scale(110%);
+  border: none;
+}
+#coookie {
+  /* background-image: url(../Bilder/Cookie.png); */
+  background-color: rgb(43, 43, 43);
+  background-size: cover;
+  opacity: 100%;
+  border: 1 px;
+  border-radius: 500px;
+  height: 500 px;
+  width: 500 px;
+}
+#schließen {
+  border: 1px solid white;
+  padding: 5px 5px;
+  margin-top: 2%;
+  margin-left: 44%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+#kshop {
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  padding: 5px 5px;
+  margin: 3%;
+  cursor: pointer;
+}
+#kshop:hover {
+  background-color: rgb(32, 32, 32);
+}
+#kshop:active {
+  transform: translateY(5px);
+}
+#fett {
+  text-align: center;
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+  padding: 5px 5px;
+  margin: 3%;
+  cursor: pointer;
+}
+#fett:hover {
+  background-color: rgb(32, 32, 32);
+}
+#fett:active {
+  transform: translateY(5px);
+}
+#mitte {
+  margin-left: 5%;
+}
+#shop {
+  border: 1px solid white;
+  color: white;
+  cursor: pointer;
+  background-color: black;
+  padding: 15px 15px;
+  text-align: center;
+  margin-left:3%;
+  float: left;
+  margin-top: 1%;
+}
+#shop:hover{
+  background-color: rgb(39, 38, 38);
+}
+#shop:active {
+  transform: translateY(3px);
+}
+#Uber {
+  position: absolute;
+  top: 3%;
+  left: 45%;
+  background-color: none;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#box {
+  float: right;
+  background-color: black;
+  height: auto;
+  width: 125px;
+  border: 2px solid white;
+  color: white;
+  font-size: medium;
+  margin-right: 1%;
+  margin-left: 1%;
+  margin-top: 1%;
+}
+#ausgabeClicks {
+  text-align: center;
+  margin: 1%;
+}
+#ausgabeMulti {
+  margin: 1%;
+  text-align: center;
+}
+#weitere {
+  height: 650px;
+  width: 650px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+#statsu {
+  text-align: center;
+  font-family: ITC Kristen;
+  font-size: large;
+}
+#farbe {
+  text-align: center;
+  font-weight: bold;
+  color: blue;
+}
+#meilens {
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  margin-top: 2%;
+  margin-left: 42%;
+  padding: 7px 7px;
+  cursor: pointer;
+}
+#inhaltm {
+  height: 650px;
+  width: 650px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+#bisherige {
+  color: white;
+  background-color: black;
+  height: auto;
+  width: auto;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  text-align: center;
+  font-size: x-large;
+}
+#bisherige2 {
+  color: white;
+  background-color: black;
+  height: auto;
+  width: auto;
+  border-bottom: 2px solid white;
+  text-align: center;
+  font-size: x-large;
+}
+#erweiterter {
+  height: 400px;
+  width: 650px;
+  border: 2px solid white;
+  background-color: black;
+  color: white;
+}
+#x {
+  background-color: none;
+  border: none;
+}
+#bauernhof {
+  background-color: transparent;
+  color: white;
+  height: 150px;
+  width: 350px;
+  border: 1px solid white;
+  position: absolute;
+  left: 3%;
+  top: 35%;
+  cursor: default;
+}
+#bauern {
+  text-align: center;
+}
+#bauernhbild {
+  background-color: rgb(43, 43, 43);
+  background-size: cover;
+  opacity: 100%;
+  border: 1 px solid transparent;
+  border-radius: 500px;
+  height: 50 px;
+  width: 50 px;
+}

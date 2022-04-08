@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css.css" />
+    <link rel="icon" href="../Bilder/cookie.ico">
+    <title>Cookie Clicker</title>
+  </head>
+  <body>
+    <script src="./code.js"></script>
+    <!--Überschrift-->
+    <div id="oben"><span id="Uber"><center>Cookie Clicker</center></span>
+        <!--Clicks-->
+        <div id="box">
+          Cookies:
+        <p id="Scorez">
+            0
+        </p>
+      </div>
+      <!--Multi-->
+      <div id="box">
+          Mutli: 
+          <p id="clickm">
+              1
+          </p>
+      </div>
+      <!--Shop Knopf-->
+      <button onclick="öffnen()" id="shop">Shop</button>
+    </div>
+    <br /><br />
+    <!--Ende-->
+    <!--Shop Anfang-->
+    <br />
+    <div id="content" style="display: none">
+      <button onclick="schließen()" id="schließen">Schließen</button>
+      <!--Anfang Lootboxen-->
+      <button onclick="weitere()" id="schließen""">Lootboxen</button>
+        <div style="display: none;" id="weitere">
+            <button onclick="schw()" id="kshop">Schließen</button>
+            <span id="statsu"><span id="farbe">Lootboxen</span></span>
+            <center>
+              Man kann einen Zufälligen Betrag bekommen, man kann aber auch Verlieren!
+            </center>
+            <ul>
+              <button onclick="lucky1()" id="kshop">Kaufen</button>
+              Lootbox Bronze:
+              <span id="preis1">500</span>
+            </ul>
+            <ul>
+              <button onclick="lucky2()" id="kshop">Kaufen</button>
+              Lootbox Silber:
+              <span id="preis2">2500</span>
+            </ul>
+            <ul>
+              <button onclick="lucky3()" id="kshop">Kaufen</button>
+              Lootbox Gold:
+              <span id="preis3">5000</span> Rest:
+              <span id="restg">5</span>
+            </ul>
+            <ul>
+              <button onclick="lucky4()" id="kshop">Kaufen</button>
+              Lootbox Diamond:
+              <span id="preis4">100000</span>
+              Rest:
+              <span id="restd">1</span>
+            </ul>
+            <ul>
+              <button onclick="money()" id="kshop">Bestätigen</button>
+              Secret Code
+            </ul>
+        </div>
+      <!--Ende Lootboxen-->
+      <br>
+      <!--Anfang Meilensteine-->
+        <button onclick="meilen()" id="meilens" style="display: block;">Meilensteine</button>
+          <div id="inhaltm" style="display: none;">
+            <button onclick="schließenm()" id="kshop">Schließen</button>
+            <h2 style="text-align: center; text-decoration: underline;">Aktueller Meilenstein</h2>
+            <br>
+            <!--Beschreibung-->
+            <center style="font-size: large;">
+              Spiele weiter um eine Speziele Lootbox zu erhalten!
+            </center>
+            <div id="bisherige">
+            Bisherige Clicks: 
+            <span id="bisher">0</span>
+          </div>
+          <!--Bis zum nächsten-->
+          <div id="bisherige2">
+          Clicks Bis zum nächsten Meilenstein:
+          <span id="biszu">50</span>
+        </div>
+        <!--Ende-->
+        <center>
+        <button id="kshop" onclick="meilenstein()">Abholen</button>
+      </center>
+      <hr>
+      <div id="bisherige2">
+        Letzter Meilensteingewinn:
+        <br>
+        <span id="gewinne"></span>
+      </div>
+          </div>
+      <!--Ende Meilnsteine-->
+      <div style="display: none;" id="erweiterter">
+        <button id="kshop" onclick="main()">Zurück</button>
+        <center>
+          Wilkommen beim erweiterten Shop!
+        </center>
+        <!--Geringverdiener Finger-->
+        <ul>
+          <button id="kshop" onclick="geringv()">Kaufen</button>
+          Geringverdiener-Finger: 
+          <span id="preisgering">20000</span>
+          Clicks: +17.5. Level: 
+          <span id="levelgeringv">0</span>
+        </ul>
+        <!--Verdiner Finger-->
+        <ul>
+          <button id="kshop" onclick="vfinger()">Kaufen</button>
+          Verdiener Finger
+          <span id="preisv">70000</span>
+          Clicks: +70.5. Level:
+          <span id="levelv">0</span>
+        </ul>
+        <!--Großverdiener FInger-->
+        <ul>
+          <button id="kshop" onclick="großv()">Kaufen</button>
+          Großverdiener Finger
+          <span id="preisgv">150000</span>
+          CLicks: +180.0 . Level:
+          <span id="levelgv">0</span>
+        </ul>
+      </div>
+      <!--Ende Erweiterter-->
+      <div id="inhalt" style="display: none">
+        <h1 style="text-align: center">Shop</h1>
+        <!--Kleiner Finger-->
+        <ul>
+          <button onclick="Multi()" id="kshop">Kaufen</button>
+          Kleiner Finger:
+          <span id="preism">50</span>
+          Clicks: +0,1. Level: 
+          <span id="levelk">0</span>
+        </ul>
+        <!--Mittlerer Finger-->
+        <ul>
+          <button onclick="mittel()" id="kshop">Kaufen</button>
+          Mittlerer Finger:
+          <span id="preism">400</span>
+          Clicks: +0,5. Level: 
+          <span id="levelm">0</span>
+        </ul>
+        <!--Großer Finger-->
+        <ul>
+          <button id="kshop" onclick="groß()">Kaufen</button>
+          Großer Finger:
+          <span id="preisg">1250</span>
+          Clicks: +2.0. Level:
+          <span id="levelg">0</span>
+        </ul>
+        <!--Fetter Finger-->
+        <ul>
+        <button id="kshop" onclick="fett()">Kaufen</button>
+        Fetter Finger:
+        <span id="preisf">5000</span>
+        Clicks: +4.5. Level:
+        <span id="levelf">0</span>
+      </ul>
+      <!--Erweiterter Shop-->
+      <center>
+        <button id="kshop" onclick="erw()">Erweiterter Shop</button> 
+      </center>
+      </div>
+    </div>
+    <!--Shop Ende-->
+    <!--Clicker anfang-->
+    <br />
+    <center>
+      <div id="cookie">
+        <button onclick="cookieclick()" id="cookieclick" >
+          <img src="../Bilder/Cookie.png" />
+        </button>
+      </div>
+    </center>
+    <!--Clicker Ende-->
+  </body>
+</html>
